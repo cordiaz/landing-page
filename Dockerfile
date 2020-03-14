@@ -1,4 +1,4 @@
 FROM cordiaz/landing-cilsy
 
-
-COPY . /var/www/html
+WORKDIR /usr/share/nginx/html
+COPY . /usr/share/nginx/html
